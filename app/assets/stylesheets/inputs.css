@@ -1,0 +1,8 @@
+button, input[type="button"], input[type="submit"] {
+    border:none;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 16px;
+    cursor: pointer;
+}

@@ -16,6 +16,7 @@
  :root, body {
     margin: 0;
     padding: 0;
+    background: rgb(240, 242, 243);
  }
  .content-width {
     max-width: 900px;
@@ -29,4 +30,12 @@
 }
 .text-white {
     color: #ffffff;
+}
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0px 2px 24px -4px rgb(0 0 0 / 2%);
+    margin-bottom: 1rem;
+    border: 1px solid #eaeaea;
 }
