@@ -8,3 +8,25 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+ * {
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ :root, body {
+    margin: 0;
+    padding: 0;
+ }
+ .content-width {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.container {
+    padding: 20px;
+}
+.bg-primary {
+    background-color: #007bff;
+}
+.text-white {
+    color: #ffffff;
+}
